@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity">
 
     <LinearLayout
-        android:layout_width="268dp"
-        android:layout_height="313dp"
+        android:layout_width="302dp"
+        android:layout_height="402dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="4dp"
@@ -19,39 +19,53 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/edtMAName"
+            android:id="@+id/edtRAName"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="10dp"
             android:ems="10"
             android:hint="@string/hntName"
-            android:inputType="textPersonName"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/edtMAPassword"
+            android:id="@+id/edtRAPassword"
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:layout_marginTop="10dp"
             android:ems="10"
             android:hint="@string/hntPassword"
             android:inputType="textPassword" />
 
-        <Button
-            android:id="@+id/btnMALogin"
+        <EditText
+            android:id="@+id/edtRAReentryPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btnLogin" />
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/hntReEnterPassword"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edtRAMail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/hntEmail"
+            android:inputType="textEmailAddress" />
 
         <Button
-            android:id="@+id/btnMARegister"
+            android:id="@+id/btnRASend"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnRegister" />
+            android:layout_marginTop="10dp"
+            android:text="@string/btnSave" />
 
         <Button
-            android:id="@+id/btnMAForgotPassword"
+            android:id="@+id/btnRACansel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnForgetPassword" />
+            android:layout_marginTop="10dp"
+            android:text="@string/btnCancel" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
