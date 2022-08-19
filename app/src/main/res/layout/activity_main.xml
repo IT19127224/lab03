@@ -40,18 +40,21 @@
             android:id="@+id/btnMALogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openNewActivity"
             android:text="@string/btnLogin" />
 
         <Button
             android:id="@+id/btnMARegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openNewActivity"
             android:text="@string/btnRegister" />
 
         <Button
             android:id="@+id/btnMAForgotPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openNewActivity"
             android:text="@string/btnForgetPassword" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
